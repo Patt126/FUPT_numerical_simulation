@@ -45,5 +45,8 @@ All integrators are implemented in MATLAB and tested on a fixed-length FPUT chai
 
 ---
 
-## MATLAB Structure  
+## Summary
+This project provides a quantitative numerical study of the FPUT chain using explicit and symplectic integrators.
+It verifies the classical recurrence phenomenon, examines stability and convergence, and evaluates energy conservation across methods.
+The analysis highlights the importance of symplectic integration for reproducing physically consistent dynamics in Hamiltonian systems, where preserving energy and structure is essential to observe genuine long-term behaviour.  
 
