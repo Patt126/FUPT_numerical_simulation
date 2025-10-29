@@ -39,7 +39,7 @@ All integrators are implemented in MATLAB and tested on a fixed-length FPUT chai
   - Euler ≈ 1  
   - Leap-Frog ≈ 2  
   - Ruth / Nystrom ≈ 3  
-- **Recurrence and Equipartition:**  
+- **Recurrence and Equipartition:**
   - At low energy density \( \varepsilon < \varepsilon_c \), mode energy recurs quasi-periodically.  
   - Above \( \varepsilon_c \), energy equipartitions, matching the expected chaotic regime.
 
