@@ -7,7 +7,7 @@ The goal is to evaluate numerical integrators that preserve the qualitative prop
 
 ## Physical Background  
 
-- The **FPUT chain** models a one-dimensional system of \( N \) particles connected by weakly nonlinear springs.  
+- The **FPUT chain** models a one-dimensional system of $N$particles connected by weakly nonlinear springs.  
 - The model was first introduced by Fermi, Pasta, Ulam, and Tsingou (1953) to test whether nonlinearity induces thermalization, as expected from the ergodic hypothesis.  
 - Contrary to expectations, energy initially placed in one normal mode periodically returned to its original configuration instead of spreading uniformly — a clear violation of ergodicity.  
 - The discovery made the FPUT chain an **important toy model** for studying the limits of ergodicity, nonlinear resonances, and the transition from order to chaos in Hamiltonian systems.  
@@ -33,7 +33,7 @@ All integrators are implemented in MATLAB and tested on a fixed-length FPUT chai
 
 ## Numerical Results  
 
-- **Energy Conservation:** Symplectic schemes (Leap-Frog, Ruth, Nystrom) conserve energy over long integration times $ T_{\max} = 10^4 $, while non-symplectic methods show energy drift.  
+- **Energy Conservation:** Symplectic schemes (Leap-Frog, Ruth, Nystrom) conserve energy over long integration times $T_{\max} = 10^4$, while non-symplectic methods show energy drift.  
 - **Stability Threshold:** Stable integration requires $omega_{\max} \cdot h \lesssim 2$.  
 - **Empirical Convergence Order:**  
   - Euler ≈ 1  
@@ -41,7 +41,7 @@ All integrators are implemented in MATLAB and tested on a fixed-length FPUT chai
   - Ruth / Nystrom ≈ 3  
 - **Recurrence and Equipartition:**
   - At low energy density $\varepsilon < \varepsilon_c $, mode energy recurs quasi-periodically.  
-  - Above $varepsilon_c$, energy equipartitions, matching the expected chaotic regime.
+  - Above $\varepsilon_c$, energy equipartitions, matching the expected chaotic regime.
 
 ---
 
