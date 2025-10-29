@@ -33,15 +33,15 @@ All integrators are implemented in MATLAB and tested on a fixed-length FPUT chai
 
 ## Numerical Results  
 
-- **Energy Conservation:** Symplectic schemes (Leap-Frog, Ruth, Nystrom) conserve energy over long integration times (\( T_{\max} = 10^4 \)), while non-symplectic methods show energy drift.  
-- **Stability Threshold:** Stable integration requires \( \omega_{\max} \cdot h \lesssim 2 \).  
+- **Energy Conservation:** Symplectic schemes (Leap-Frog, Ruth, Nystrom) conserve energy over long integration times $ T_{\max} = 10^4 $, while non-symplectic methods show energy drift.  
+- **Stability Threshold:** Stable integration requires $omega_{\max} \cdot h \lesssim 2$.  
 - **Empirical Convergence Order:**  
   - Euler ≈ 1  
   - Leap-Frog ≈ 2  
   - Ruth / Nystrom ≈ 3  
 - **Recurrence and Equipartition:**
-  - At low energy density \( \varepsilon < \varepsilon_c \), mode energy recurs quasi-periodically.  
-  - Above \( \varepsilon_c \), energy equipartitions, matching the expected chaotic regime.
+  - At low energy density $\varepsilon < \varepsilon_c $, mode energy recurs quasi-periodically.  
+  - Above $varepsilon_c$, energy equipartitions, matching the expected chaotic regime.
 
 ---
 
