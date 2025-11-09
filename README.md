@@ -1,6 +1,13 @@
 # Fermi–Pasta–Ulam–Tsingou (FPUT) Numerical Study — MATLAB  
 
-This project implements and analyzes numerical methods for the **Fermi–Pasta–Ulam–Tsingou (FPUT)** chain, a nonlinear Hamiltonian lattice that exhibits non-ergodic dynamics and delayed thermalization.  
+This project implements and analyzes numerical methods for the **Fermi–Pasta–Ulam–Tsingou (FPUT)** chain, a nonlinear Hamiltonian lattice that exhibits non-ergodic dynamics with Hamiltonian:
+´´´ math
+\mathcal{H}(q,p) = \sum_{i=1}^{N} \left[
+    \frac{p_i^2}{2m}
+    + \frac{k}{2}(q_{i+1} - q_i)^2
+    + \frac{\alpha}{3}(q_{i+1} - q_i)^3
+\right]
+´´´
 The goal is to evaluate numerical integrators that preserve the qualitative properties of the system: stability, energy conservation, and recurrence behaviour.
 
 ---
